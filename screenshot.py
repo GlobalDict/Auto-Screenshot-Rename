@@ -13,7 +13,7 @@ class Shoot(types.KX_PythonComponent):
         # Folder to save your image file
         self.path = logic.expandPath("//") 
 
-        # Number to add to your image name
+        # Number to add to your image name [e.g. image0, image1 >>]
         self.num = 0
 
     def start(self, args):
